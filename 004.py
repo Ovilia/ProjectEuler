@@ -5,6 +5,7 @@ def is_palindrome(n):
             return False
     return True
 
+
 big = -1
 for i in range(100, 1000):
     for j in range(100, 1000):

@@ -5,6 +5,7 @@ def fab(n):
         a, b = b, a + b
         yield b
 
+
 max = 4000000
 f = fab(max)
 n = f.next()
