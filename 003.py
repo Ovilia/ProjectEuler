@@ -8,6 +8,8 @@ def get_prime_factor(n):
             prime.append(i)
             while n % i == 0:
                 n /= i
+    if len(prime) == 0:  # prime
+        prime.append(n)
     return prime
 
 
