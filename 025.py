@@ -9,10 +9,9 @@ def fab(n):
 
 f = fab(10 ** 1000)
 n = f.next()
-m = 0
+m = 2
 while True:
     n = f.next()
-    print n
     m += 1
     if len(str(n)) >= 1000:
         print m
